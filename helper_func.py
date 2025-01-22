@@ -8,7 +8,7 @@ from pyrogram.enums import ChatMemberStatus
 from pyrogram.errors import FloodWait
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 
-from config import ADMINS, FORCE_SUB_CHANNEL, FORCE_SUB_GROUP
+from config import ADMINS, FORCE_SUB_CHANNEL, FORCE_SUB_GROUP, FORCE_SUB_GROUP1
 
 
 async def subschannel(filter, client, update):
